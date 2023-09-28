@@ -1,0 +1,24 @@
+/* reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* common */
+
+body {
+    font-family: 'Fredoka', sans-serif;
+}
+
+/* header */
+
+h1 {
+    color: #e53170;
+}
+
+header {
+    margin: 0 auto;
+    text-align: center;
+}
