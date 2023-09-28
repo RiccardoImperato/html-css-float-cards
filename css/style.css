@@ -24,6 +24,7 @@ h1+p {
 }
 
 header {
+    max-width: 1000px;
     margin: 0 auto;
     text-align: center;
 }
@@ -41,11 +42,37 @@ header {
     display: block;
 }
 
-.card {
-    width: calc(100% / 3 - 20px);
-    height: 100px;
-    margin: 10px;
+.team>.card {
+    width: calc(100% / 3 - 40px);
+    margin: 20px;
     color: white;
     background-color: #0f0e17;
     float: left;
+    box-shadow: 5px 5px 5px 5px grey;
+}
+
+.foto {
+    width: 100px;
+    float: left;
+}
+
+.info {
+    font-size: 15px;
+    width: calc(100% - 100px);
+    float: right;
+    padding: 10px;
+}
+
+.foto img {
+    width: 100%;
+    display: block;
+}
+
+.info a {
+    color: #6ecbf2;
+    text-decoration: none;
+}
+
+.job {
+    margin: 10px 0;
 }
