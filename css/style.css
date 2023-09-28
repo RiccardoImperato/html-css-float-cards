@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-/* common */
+/* typography */
 
 body {
     font-family: 'Fredoka', sans-serif;
@@ -16,9 +16,36 @@ body {
 
 h1 {
     color: #e53170;
+    margin-bottom: 50px;
+}
+
+h1+p {
+    margin-bottom: 50px;
 }
 
 header {
     margin: 0 auto;
     text-align: center;
+}
+
+/* main  */
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.card {
+    width: calc(100% / 3 - 20px);
+    height: 100px;
+    margin: 10px;
+    color: white;
+    background-color: #0f0e17;
+    float: left;
 }
